@@ -19,4 +19,5 @@ jobs:
       run: ./text_tablica tests/in/input.txt output.txt && cmp output.txt tests/in/input.txt
     - name: Linter
       run: clang-tidy Source.cpp
-      
+    - name: Linter (alt)
+      uses: amcp-pit/cpp-linter@v1
