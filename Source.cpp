@@ -47,7 +47,7 @@ int main(int argc, char* argv[]) {
 			lenwords[wordnum] = wordlen;
 		}
 	}
-	
+
 #if 0
 	for (int i = 0; i < 200; ++i) {
 		std::cout << lenwords[i] << " ";
@@ -98,4 +98,5 @@ int main(int argc, char* argv[]) {
 	}
 	inFile.close();
 	outFile.close();
+	return 0;
 }
