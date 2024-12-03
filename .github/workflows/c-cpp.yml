@@ -16,4 +16,4 @@ jobs:
     - name: Build
       run: clang++ Source.cpp -o text_tablica
     - name: Test
-      run: ./Source tests/in/input.txt output.txt %% cmp out.txt tests/out/input.txt
+      run: ./text_tablica tests/in/input.txt output.txt && cmp out.txt tests/out/input.txt
